@@ -1,14 +1,14 @@
-def fizz_buzz(num):
-    for i in range(1, num + 1):
+def Fizz_Buzz(n):
+    for i in range(1, n + 1):
         if i % 3 == 0 and i % 5 == 0:
-            print("fizz_buzz")
+            print("Fizz_Buzz")
         elif i % 3 == 0:
-            print("fizz")
+            print("Fizz")
         elif i % 5 == 0:
-            print("buzz")
+            print("Buzz")
         else:
             print(i)
 
 
-fizz_buzz(25)
+Fizz_Buzz(25)
  
